@@ -1,0 +1,88 @@
+body {
+    background-color: black; /* Make the entire page background black */
+    color: white; /* Ensure text remains visible */
+}
+.intro {
+    background-color: black; /* Set background to black */
+    color: white; /* Ensure text is visible */
+    height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.bg {
+    position: absolute;
+    z-index: -1;  /* Moves the image behind everything */
+    top: 10rem;
+    right: 0px;
+    object-fit: cover;
+    height: 65vh;
+}
+
+
+
+
+.introContent {
+   HEIGHT: 100vh;
+   width : 100vw;
+   padding :2rem 2rem;
+   font-size :1rem;
+   font-weight : 700;
+   display :flex;
+   flex-direction :column;
+   justify-content : center;
+}
+.hello {
+    font-size:1.75rem;
+    font-weight : 100;
+   
+}
+.introName {
+    font-size:2rem ;
+    font-weight : 100s;
+    color :blueviolet ;
+    font-size : 3rem;
+}
+   .introText{
+    font-size : 3rem;
+    font-weight : 100;
+
+   }
+.btn{
+    background: rgb(172, 225, 88);
+    margin :1rem 0;
+    padding : 0.75rem 2rem;
+    border-radius: 2rem;
+    border: none;
+    
+ 
+   }
+   
+    
+   
+   .btnImg {
+    object-fit: cover;
+    margin :0 0.25rem;
+     height : 1rem; 
+
+   }
+   .intoPara{
+    font-size :1.5rem;
+    letter-spacing: normal;
+    font-weight:  70;
+   }
+.bgImg{
+    position: absolute;
+    z-index: -1;
+    top: 200px;
+    right: 0;
+    object-fit: cover;
+    height: 100vh;
+    width: 70vw;
+    max-width: 75rem;
+    margin:  auto;
+}
+
